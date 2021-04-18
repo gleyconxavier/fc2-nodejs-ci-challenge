@@ -3,6 +3,7 @@ const calc = {
     sub,
     findPercentage,
     isPrimary,
+    divideByPercentage,
 }
 
 function sum(a: number, b: number) {
@@ -19,6 +20,10 @@ function findPercentage(a: number, b: number) {
 
 function isPrimary(a: number) {
     return a % 2
+}
+
+function divideByPercentage(a: number, b: number, c: number) {
+    return (findPercentage(a, b) / c)
 }
 
 module.exports = calc;
