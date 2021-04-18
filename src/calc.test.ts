@@ -15,3 +15,7 @@ test('Expect to 10% of 2000 to be (200)', () => {
 test('Expect 2000 to be primary (0)', () => {
     expect(calcTest.isPrimary(2000)).toBe(0)
 })
+
+test('Expect to 50% of 200 divided by 2 to be (50)', () => {
+    expect(calcTest.divideByPercentage(200, 50, 2)).toBe(50)
+})
