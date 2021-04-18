@@ -5,15 +5,15 @@ const calc = {
     isPrimary,
 }
 
-function sum(a, b: number) {
+function sum(a: number, b: number) {
     return a + b
 }
 
-function sub(a, b: number) {
+function sub(a: number, b: number) {
     return a - b
 }
 
-function findPercentage(a, b: number) {
+function findPercentage(a: number, b: number) {
     return (a / 100) * b
 }
 
