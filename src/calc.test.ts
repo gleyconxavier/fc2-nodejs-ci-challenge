@@ -12,6 +12,6 @@ test('Expect to 10% of 2000 to be -198', () => {
     expect(calcTest.findPercentage(2000, 10)).toBe(200)
 })
 
-test('Expect 2000 to be primary (0)', () => {
+test('Expect 2000 to be primary', () => {
     expect(calcTest.isPrimary(2000)).toBe(0)
 })
